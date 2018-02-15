@@ -1,0 +1,16 @@
+p {
+    width: fit-content;
+}
+
+.pseudo-link {
+    color: blue;
+}
+
+.pseudo-link:hover {
+    text-decoration-line: underline;
+    
+}
+
+.used-link {
+    color: darkviolet;
+}

@@ -14,7 +14,7 @@ function initializeTaskWithNumbers() {
 function initializeCheckPasswordTask() {
     var originalPassword = getPasswordFromUser("Create new password");
     if (!isPasswordValid(originalPassword)) {
-        originalPassword = location.host;
+        originalPassword = navigator.appName;
         alert(`Wrong password changed to ${originalPassword}`);
     }
     var checkedPassword = getPasswordFromUser("Enter password for check");

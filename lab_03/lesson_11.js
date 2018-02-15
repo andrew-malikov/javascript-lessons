@@ -1,0 +1,1 @@
+setTimeout(location.assign("https://caniuse.com"), 5000);
