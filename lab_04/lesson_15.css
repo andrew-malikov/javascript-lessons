@@ -1,0 +1,6 @@
+body {
+    transition-property: all;
+    transition-timing-function: ease-in;
+    transition-delay: .1s;
+    transition-duration: .3s;
+}

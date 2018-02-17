@@ -1,0 +1,10 @@
+h1 {
+    width: fit-content;
+}
+
+.live-header {
+    transition-property: all;
+    transition-delay: .1s;
+    transition-duration: .3s;
+    transition-timing-function: ease-in; 
+}
