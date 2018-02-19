@@ -6,6 +6,7 @@ function getRedirectToPDFComponent(url, label) {
     }, label);
 }
 
+// TODO: use http request
 function download(url, label) {
     let link = document.createElement("a");
 

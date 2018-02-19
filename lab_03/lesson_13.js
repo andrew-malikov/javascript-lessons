@@ -16,8 +16,6 @@ function ImageComponent(src, label) {
         height: originalSize.height + (originalSize.height / 5)
     };
 
-    
-
     let state = ZOOM_OUT;
 
     let animationTime = 300;
@@ -73,11 +71,11 @@ function ImageComponent(src, label) {
 
     this.image = function () {
         return image;
-    }
+    };
 
     this.state = function () {
         return state;
-    }
+    };
 }
 
 function getImage(src, label) {
