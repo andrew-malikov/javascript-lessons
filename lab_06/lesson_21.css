@@ -1,0 +1,38 @@
+html {
+  padding: 15px;
+}
+
+.view {
+  width: fit-content;
+  height: fit-content;
+}
+
+.container-component {
+  
+}
+
+.vertical-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.vertical-container > * {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.horizontal-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.horizontal-container > * {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.color-picker {
+  width: fit-content;
+  height: fit-content;
+  padding: 6px;
+}
